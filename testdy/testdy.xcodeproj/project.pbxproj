@@ -16,6 +16,7 @@
 		2F98D7DF1F0CDEE5005D423D /* testdyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D7DE1F0CDEE5005D423D /* testdyTests.swift */; };
 		2F98D7EA1F0CDEE5005D423D /* testdyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D7E91F0CDEE5005D423D /* testdyUITests.swift */; };
 		2FBEC87D1F0DD5A0005113E6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEC87C1F0DD5A0005113E6 /* image */; };
+		2FBEC87F1F0E0FFF005113E6 /* class in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEC87E1F0E0FFF005113E6 /* class */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2F98D7E91F0CDEE5005D423D /* testdyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdyUITests.swift; sourceTree = "<group>"; };
 		2F98D7EB1F0CDEE5005D423D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FBEC87C1F0DD5A0005113E6 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		2FBEC87E1F0E0FFF005113E6 /* class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = class; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		2F98D7C51F0CDEE5005D423D /* testdy */ = {
 			isa = PBXGroup;
 			children = (
+				2FBEC87E1F0E0FFF005113E6 /* class */,
 				2FBEC87C1F0DD5A0005113E6 /* image */,
 				2F98D7C61F0CDEE5005D423D /* AppDelegate.swift */,
 				2F98D7C81F0CDEE5005D423D /* ViewController.swift */,
@@ -241,6 +244,7 @@
 				2FBEC87D1F0DD5A0005113E6 /* image in Resources */,
 				2F98D7D41F0CDEE5005D423D /* LaunchScreen.storyboard in Resources */,
 				2F98D7D11F0CDEE5005D423D /* Assets.xcassets in Resources */,
+				2FBEC87F1F0E0FFF005113E6 /* class in Resources */,
 				2F98D7CC1F0CDEE5005D423D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
