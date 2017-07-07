@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3J2-bL-13h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="LKa-Tz-o3M">
+            <objects>
+                <viewController id="vB3-6V-3pe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MuT-c4-tM1"/>
+                        <viewControllerLayoutGuide type="bottom" id="W8w-bK-wHB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rJi-5A-i2d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DNq-10-eur"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hb2-bB-mB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="-1143"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="gy8-Qk-Rjg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3J2-bL-13h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_normal_danmu" selectedImage="btn_normal_danmu_highlight" id="PSd-Uc-caz"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rmf-6l-TOZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vB3-6V-3pe" kind="relationship" relationship="rootViewController" id="0wk-hf-77v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I5T-bj-64l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="-1143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_normal_danmu" width="24" height="24"/>
+        <image name="btn_normal_danmu_highlight" width="24" height="24"/>
+    </resources>
+</document>
